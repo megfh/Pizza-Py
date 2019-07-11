@@ -1,4 +1,4 @@
-# FREE PIZZA 🍕
+# 🍕 FREE PIZZA 🍕
 
 Are you a #LdnOnt native? Did you miss your free name day at Stobies? Don't let that happen again! 
 This python script that will check Stobies twitter and text you if it's your day for free pizza 🍕
