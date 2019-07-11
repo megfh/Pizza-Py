@@ -20,6 +20,7 @@ $ git clone https://github.com/megfh/Pizza-Py.git
 
 Install required libraries 
 ```shell
+$ cd Pizza-Py 
 $ pip3 install -r requirements.txt 
 ```
 
