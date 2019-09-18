@@ -31,9 +31,11 @@ def getFreeNamesTweet(tweets):
 def matchNames(tweet): 
     text = tweet.text
     for name in contacts.keys():
-        if name in text: 
-            # woohoo free pizza, baby! 
-            return ({ "name": name, "number": contacts[name] })
+        # iterate over each word in the tweet to avoid false name matches
+        for word in text.split():
+            if name == word: 
+                # woohoo free pizza, baby! 
+                return ({ "name": name, "number": contacts[name] })
     # no free pizza for you :( 
     return False
 
